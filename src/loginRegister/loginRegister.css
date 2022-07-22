@@ -1,0 +1,63 @@
+body {
+    /* background: rgb(2, 0, 36); */
+    background: radial-gradient(circle,
+                rgb(23, 15, 182) 0%,
+                rgb(52, 189, 216) 0%,
+                rgb(95, 95, 192) 100%);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+}
+
+.container>form {
+    width: 70%;
+    border: 1px solid #dfdfdf;
+    padding: 20px;
+    border-radius: 5px;
+    background: #fff;
+}
+
+form label{
+    font-weight: bolder;
+}
+form h1{
+    font-weight: bolder;
+    text-shadow: 3px 3px 3px rgb(203, 236, 245);
+    color: rgb(31, 31, 148);
+    margin-bottom: 30px;
+}
+button {
+    background: rgb(31, 31, 148);
+    color: white;
+    padding: 5px;
+    width: 70px;
+    border: 2px solid rgb(190, 97, 146);
+    font-weight: bolder;
+    border-radius: 5px;
+    margin-left: 0%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+button:hover {
+    background: rgb(184, 183, 242);
+    color: rgb(31, 31, 148);
+}
+#register-btn{
+    margin-left: 10px;
+}
+
+p {
+    color: red;
+    font-size: smaller;
+    margin-left: 40px;
+}
